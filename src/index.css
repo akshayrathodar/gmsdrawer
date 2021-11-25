@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+@font-face {
+  font-family: "SuisseInt";
+  src: local("SuisseInt"),
+    url(../src/fonts/SuisseIntl-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "SuisseIntBook";
+  src: local("SuisseIntBook"),
+    url(../src/fonts/SuisseIntl-Book.otf) format("truetype");
+}
+@font-face {
+  font-family: "SuisseIntBold";
+  src: local("SuisseIntBold"),
+    url(../src/fonts/SuisseIntl-Bold.otf) format("truetype");
+}

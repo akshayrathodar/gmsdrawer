@@ -1,0 +1,92 @@
+a,
+span {
+  text-decoration: none;
+}
+
+.cta a {
+  text-decoration: none !important;
+  color: #202322;
+  font-style: SuisseInt-Book;
+}
+
+.cta:hover a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.cta {
+  position: relative;
+  max-width: fit-content;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cta-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: -0.5;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+  background: #56b763;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  text-decoration: none;
+  color: #202322;
+  font-style: SuisseInt-Book;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+
+.cta:hover span {
+  color: #ffffff;
+  text-decoration: none;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #56b763;
+  color: #fff;
+}
+.cta:hover svg {
+  transform: translateX(0);
+  stroke: white;
+}
+
+.cta:active {
+  transform: scale(0.96);
+}
